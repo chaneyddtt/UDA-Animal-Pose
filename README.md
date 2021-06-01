@@ -9,7 +9,7 @@ Chen Li, Gim Hee Lee. From Synthetic to Real: Unsupervised Domain Adaptation for
 The pseudo labels generated from model trained on synthetic data are noisy, which leads to degraded performance when directly used for training. In this work, we propose an online coarse-to-fine pseudo label update strategy to gradually replace noisy pseudo labels with more accurate ones.
 
 <p align="center">
-  <img width="500" height="250" src="illustration.png">
+  <img width="400" height="250" src="illustration.png">
 </p>
 
 Our network is a student-teacher architecture, where the student network consists of a multi-scale domain adaptation module(MDAM), a refinement block (RB) and a self-feedback loop. We conduct online coarse-to-fine pseudo label update through the inner loopand the outer loop, respectively.
