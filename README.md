@@ -92,6 +92,7 @@ Download our [model](https://drive.google.com/file/d/1T1LRLL7c122gUPyCclLSXqNxtU
 ```
 CUDA_VISIBLE_DEVICES=0 python evaluation/test.py --arch pose_resnet_refine_mt_multida --animal all --dataset real_animal_all --resume checkpoint/all/models/stage2/model_best.pth.tar --evaluate --train_on_all_cat --flip
 ```
+This will compute the average PCK score for both horse and tiger, and you can set '--animal' to horse or tiger to get the PCK score for each animal category.
 
 **Acknowledgements**
 
