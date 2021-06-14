@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=0 python train/train_refinenet.py --arch pose_resnet_refine
 
 Then you can generate pseudo labels with this model and train with both synthetic and real data by running:
 ```
-CUDA_VISIBLE_DEVICES=0 python train/train_refinenet_mt.py --arch pose_resnet_refine_mt_multida --checkpoint ./checkpoint/all/syn2real_refinenet_mt --dual_branch --mixup_dual --dataset_real_crop real_animal_crop_all --occlusion_aug --pretrained ./checkpoint/all/syn_refinenet_re/model_best.pth.tar --animal all --dataset_real real_animal_all --dataset synthetic_animal_sp_all --train_on_all_cat --generate_pseudol
+CUDA_VISIBLE_DEVICES=0 python train/train_refinenet_mt.py --arch pose_resnet_refine_mt_multida --checkpoint ./checkpoint/all/syn2real_refinenet_mt --dual_branch --mixup_dual --dataset_real_crop real_animal_crop_all --occlusion_aug --pretrained ./checkpoint/all/syn_refinenet/model_best.pth.tar --animal all --dataset_real real_animal_all --dataset synthetic_animal_sp_all --train_on_all_cat --generate_pseudol
 ```
 
 **Test**
