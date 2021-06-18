@@ -22,11 +22,13 @@ For more details, please refer to [our paper](https://arxiv.org/pdf/2103.14843.p
 
 **Bibtex**
 ```
-@article{li2021synthetic,
-  title={From Synthetic to Real: Unsupervised Domain Adaptation for Animal Pose Estimation},
-  author={Li, Chen and Lee, Gim Hee},
-  journal={arXiv preprint arXiv:2103.14843},
-  year={2021}
+@InProceedings{Li_2021_CVPR,
+    author    = {Li, Chen and Lee, Gim Hee},
+    title     = {From Synthetic to Real: Unsupervised Domain Adaptation for Animal Pose Estimation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {1482-1491}
 }
 ```
 
